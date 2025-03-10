@@ -1,0 +1,166 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blue; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+#starter{
+    width: 80%;
+    height: 85%;
+    background-color: gold;
+}
+
+
+.navbar{
+    border: 1px solid black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 5rem;
+    background-color: yellow;
+    color: blue;
+}
+.nav{
+    display: none;
+    background-color: yellow;
+}
+.t1{
+    width: 100%;
+    height: 5rem;
+}
+.t1 td{
+    width: 5rem;
+}
+.t2{
+    width: 100%;
+    height: 3rem;
+}
+
+.a1,.a2,.a3,.a4,.a5{
+    display: inline;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.a1{
+    color: red;
+    text-decoration: underline;
+}
+.a2:hover{
+    color: red;
+    text-decoration: underline;
+}
+.a3:hover{
+    color: red;
+    text-decoration: underline;
+}
+.a4:hover{
+    color: red;
+    text-decoration: underline;
+}
+.a5:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#home{
+    background-color: red;
+    width: 100%;
+    height: 80vh;
+}
+/* #about{
+    background-color: gold;
+    width: 100%;
+    height: 50vh;
+}
+#contact{
+    background-color: blue;
+    width: 100%;
+    height: 50vh;
+}
+#location{
+    background-color: gray;
+    width: 100%;
+    height: 50vh;
+}
+#login{
+    background-color: greenyellow;
+    width: 100%;
+    height: 50vh;
+} */
+
+
+#i1{
+    display: block;
+    margin-left: 10rem;
+}
+#i1:hover{
+    transform: scale(1.1,1.1);
+}
+
+.navmenu{
+    display: none;
+    width: 100%;
+    height: 20%;
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1070px) {
+    .navbar{
+        height: 3rem;
+    }
+    .t2{
+        height: 3rem;
+    }
+    .t1{
+        height: 3rem;
+    }
+    .a1,.a2,.a3,.a4,.a5{
+        font-size: 1rem;
+    }
+    .t2 td{
+        width: 33%;
+    }
+    .nav{
+        display: none;
+        width: 100%;
+        height: 3rem;
+    }
+    .img1{
+        width: 30px;
+    }
+    /* .navbar .nav .t2 tr td img.img2{
+        width: 40px;
+    } */
+}
+
+
+
+@media screen and (max-width: 725px) {
+    .t1{
+        display: none;
+    }
+    .nav{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+    #i1{
+        margin-left: 9rem;
+    }
+}
